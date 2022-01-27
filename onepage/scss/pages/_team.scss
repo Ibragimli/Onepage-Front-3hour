@@ -1,0 +1,108 @@
+#team {
+    background-color: #f8fbfe;
+
+    .container {
+        .teamUp {
+            text-align: center;
+
+            h1 {
+                font-size: 32px;
+                font-weight: 700;
+                margin-bottom: 20px;
+                color: #124265;
+            }
+
+            p {
+                margin-bottom: 0;
+                font-size: 14px;
+                color: #919191;
+            }
+        }
+
+        .teamDown {
+            .teamBox {
+                margin-right: 15px;
+
+                .teamImgBox {
+                    border-radius: 5px;
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                        border-radius: 5px;
+                    }
+
+                    .teamIcon {
+                        width: 100%;
+                        background-color: rgba(255, 255, 255, 0.651);
+                        position: absolute;
+                        bottom: 0px;
+                        left: 0px;
+                        opacity: 0;
+                        transition: all 0.5s;
+
+                        ul {
+                            padding: 10px;
+                            justify-content: center;
+                            align-items: center;
+
+                            li {
+                                i {
+                                    color: #124265;
+                                    transition: all 0.4s;
+                                    cursor: pointer;
+                                    margin: 0 10px;
+                                    display: inline-block;
+                                    font-size: 18px;
+                                }
+
+                                i:hover {
+                                    color: #2487ce;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+
+
+                .teamTitle {
+                    text-align: center;
+                    padding: 15px 0px;
+                    background-color: white;
+                    border-radius: 5px;
+
+                    h4 {
+                        font-weight: 700;
+                        margin-bottom: 5px;
+                        font-size: 18px;
+                        color: #124265;
+                    }
+
+                    p {
+                        font-size: 13px;
+                        font-weight: 400;
+                        color: #aaaaaa;
+                    }
+                }
+            }
+
+            .teamBox:hover {
+                .teamImgBox {
+                    border-radius: 5px;
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                        border-radius: 5px;
+                    }
+
+                    .teamIcon {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}

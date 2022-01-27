@@ -1,0 +1,73 @@
+footer {
+    #footerUp {
+        .container {
+            .row {
+                .footerUseful {
+                    h6 {}
+
+                    p {
+                        i {
+                            padding-right: 2px;
+                            color: #2487ce;
+                            font-size: 18px;
+                            line-height: 1;
+                        }
+
+                        a {
+                            color: #777777;
+                            transition: 0.3s;
+                            line-height: 1;
+                        }
+
+                        a:hover {
+                            color: #2487ce;
+
+                        }
+
+
+                    }
+                }
+
+                .footerRight {
+                    h6 {}
+
+                    p {}
+
+                    form {
+                        position: relative;
+
+                        input {
+                            padding: 5px 2px;
+                            border-radius: 2px;
+                            border: 1px solid #cde5f6;
+                        }
+
+                        button {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            padding: 5px 20px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+#copyright {
+    padding: 0px 0px;
+    i{
+        font-size: 18px;
+        background: #2487ce;
+        color: #fff;
+        line-height: 1;
+        padding: 8px 0;
+        margin-right: 4px;
+        border-radius: 5px;
+        text-align: center;
+        width: 32px;
+        height: 32px;
+    }
+}

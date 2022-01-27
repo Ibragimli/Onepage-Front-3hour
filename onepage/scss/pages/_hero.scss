@@ -1,0 +1,50 @@
+#hero {
+    background-image: url(https://bootstrapmade.com/demo/templates/OnePage/assets/img/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    .container {
+        display: flex;
+        justify-content: center;
+
+        .row {
+            justify-content: center;
+            align-items: center;
+            h1 {
+                margin: 0;
+                font-size: 56px;
+                font-weight: 700;
+                line-height: 72px;
+                color: #124265;
+                font-family: "Poppins", sans-serif;
+            }
+
+            p {
+                color: #5e5e5e;
+                margin: 10px 0 0 0;
+                font-size: 22px;
+            }
+            .heroBtn {
+                font-family: "Poppins", sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                letter-spacing: 0.5px;
+                display: inline-block;
+                padding: 14px 50px;
+                border-radius: 5px;
+                transition: 0.5s;
+                margin-top: 30px;
+                color: #fff;
+                background: #2487ce;
+            }
+
+            .heroBtn:hover {
+                color: #fff;
+                background: #3194db;
+            }
+        }
+    }
+}

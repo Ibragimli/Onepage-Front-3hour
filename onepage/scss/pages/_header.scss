@@ -1,0 +1,69 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 999;
+    .row {
+        nav {
+            .container {
+                h1 {
+                    font-size: 28px;
+                    line-height: 1;
+                    font-weight: 200;
+                    letter-spacing: 0.5px;
+                    font-family: "Poppins", sans-serif;
+
+                    .navbar-brand {
+                        color: #16507b;
+                    }
+                }
+
+                button {
+                    span {
+                        i {}
+                    }
+                }
+
+                .collapse {
+                    ul {
+                        li {
+                            a {
+                                color: #16507b;
+                                padding: 10px 0 10px 27px;
+                                font-size: 14px;
+                                transition: 0.3s;
+                            }
+
+                            .active {
+                                color: #2487ce;
+
+                            }
+
+                            a:hover {
+
+                                color: #2487ce;
+                            }
+                        }
+                    }
+
+                    .headBtn {
+                        background: #2487ce;
+                        padding: 6px 22px;
+                        margin-left: 30px;
+                        border-radius: 4px;
+                        color: #fff;
+                        transition: all 0.4s;
+                    }
+
+                    .headBtn:hover {
+                        color: #fff;
+                        background: #3194db;
+                    }
+                }
+
+            }
+        }
+    }
+}
